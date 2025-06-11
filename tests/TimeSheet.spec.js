@@ -311,17 +311,6 @@ else
 }
 
 
-
 await page.waitForTimeout(3000);
-
-
-
-
-
-
-
-
-
-
 
 })
