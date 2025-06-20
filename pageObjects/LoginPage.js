@@ -6,7 +6,7 @@ exports.LoginPage = class LoginPage {
     this.password = "#pydLogin_txtUserPwd";
     this.loginButton = "#pydLogin_btnLogin";
   }
-
+//test
   async goTOLoginPage() {
     await this.page.goto(testData.pcoreURL);
   }
