@@ -1,5 +1,5 @@
 import { test, expect } from "../fixtures/HROneFixture.js";
-import hrOneTestData from "../testData/hrOneTestData.json";
+import hrOneTestData from "./testData/hrOneTestData.json";
 import { getDateStatus } from "../utils/hrOneSiteDateHelpers.js";
 
 test("Attendance Regularization Request", async ({ hrOneLogin, page }) => {
